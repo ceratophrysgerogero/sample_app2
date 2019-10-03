@@ -50,15 +50,6 @@ class UsersController < ApplicationController
     params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
 
-  # beforeアクション
-  # ログイン済みユーザーかどうか
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = "Plaease lon in "
-      redirect_to login_url
-    end
-  end
 
   # 正しいユーザーかどうかを確認
   def corrent_user
