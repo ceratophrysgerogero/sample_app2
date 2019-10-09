@@ -437,7 +437,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
-  mini_magick (= 4.7.0)
+  mini_magick
   minitest-reporters
   pg (= 0.20.0)
   puma (~> 3.11)

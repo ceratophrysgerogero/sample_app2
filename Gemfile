@@ -48,7 +48,8 @@ gem 'will_paginate', '3.1.7'
 
 # 画像のアップロード
 gem 'carrierwave', '1.2.2'
-gem 'mini_magick', '4.7.0'
+# 画像のリサイズ
+gem 'mini_magick'
 
 group :production do
   gem 'pg',  '0.20.0'
